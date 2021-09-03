@@ -1,0 +1,15 @@
+{
+  "name": "cypress-api-demo",
+  "version": "1.0.0",
+  "description": "Learn API Testing with Cypress",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Ahmed Al-Saab",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.8.0",
+    "@bahmutov/cy-api": "^1.4.2",
+    "uuid": "^8.1.0"
+  }
+}

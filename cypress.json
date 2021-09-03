@@ -1,0 +1,14 @@
+{
+    "baseUrl": "http://www.boredapi.com/api",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 70000,
+    "reporter": "junit",
+    "responseTimeout": 120000,
+    "reporterOptions": {
+      "mochaFile": "cypress/reports/test-output-[hash].xml",
+      "toConsole": true
+    },
+    "viewportWidth": 1090,
+    "viewportHeight": 1020,
+    "videoUploadOnPasses": false
+  }
